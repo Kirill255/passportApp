@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
 var session = require('express-session');
 var passport = require('passport'); // тут тоже подключаем passport, а также в routere где мы его используем, а сдесь мы его инициализируем после мидлверы session
-var passportHttp = require('passport-http');
+// var passportHttp = require('passport-http'); это вроде как не понадобилось
 
 var expressValidator = require('express-validator');
 
